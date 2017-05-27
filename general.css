@@ -16,8 +16,6 @@
     background: url(https://media.giphy.com/media/3o8dpbSeoqQZNvjANq/giphy.gif) no-repeat;
     width: 210px;
     height: 300px;
-    bottom: 30%;
-    left: -80px;
     background-size: 205px 200px;
 }
 #avatars-container:after {
@@ -28,8 +26,8 @@
     background: url(https://media.giphy.com/media/opvm3FXT2qYus/giphy.gif) no-repeat;
     width: 150px;
     height: 300px;
-    right: -50px;
-    bottom: 55%;
+right: 21px;
+  
     background-size: 150px 160px;
 }
 
@@ -47,7 +45,7 @@
     background: url(https://media.giphy.com/media/jvQdgWel96thK/giphy.gif) no-repeat;
     width: 150px;
     height: 300px;
-    right: 365%;
+
     bottom: -215%;
     background-size: 150px 110px;
 }
