@@ -35,3 +35,10 @@
     z-index: 1;
     overflow: hidden;
 }
+
+#woot .top:after {
+    content: "SUPER";
+    position: relative;
+    display: inline-block;
+    top: -6px;
+}
