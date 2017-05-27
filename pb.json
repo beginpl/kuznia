@@ -1,0 +1,16 @@
+{
+
+	"css": {
+		"import": ["https://rawgit.com/beginpl/kuznia/master/general.css"]
+	},
+	"images": {
+		"background": "http://i.imgur.com/aoxP6ZT.jpg"
+	},
+	"rules": {
+		"allowAutojoin": "true",
+		"allowAutorespond": "true",
+		"allowAutowoot": "true",
+		"allowEmotes": "true",
+		"allowShowingMehs": "false"
+	}
+}
