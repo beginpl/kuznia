@@ -1,7 +1,7 @@
 {
 
 	"css": {
-		"import": ["https://cdn.rawgit.com/beginpl/kuznia/480d7174/general.css"]
+		"import": ["https://cdn.rawgit.com/beginpl/kuznia/6a0fecac/general.css"]
 	},
 	"images": {
 		"background": "http://i.imgur.com/aoxP6ZT.jpg"
