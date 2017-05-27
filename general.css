@@ -30,3 +30,7 @@
     bottom: 30%;
     background-size: 150px 250px;
 }
+#audience {
+    z-index: 1;
+    overflow: hidden;
+}
