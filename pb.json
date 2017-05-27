@@ -1,10 +1,10 @@
 {
 
 	"css": {
-		"import": ["https://cdn.rawgit.com/beginpl/kuznia/1ddbd7a6/general.css"]
+		"import": ["https://cdn.rawgit.com/beginpl/kuznia/95ee4d24/general.css"]
 	},
 	"images": {
-		"background": "http://i.imgur.com/aoxP6ZT.jpg"
+		"background": "http://i.imgur.com/Eo2cfOe.jpg"
 	},
 	"rules": {
 		"allowAutojoin": "true",
