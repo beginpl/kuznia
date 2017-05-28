@@ -4,7 +4,7 @@
 		"import": ["https://cdn.rawgit.com/beginpl/kuznia/8418c8e3/general.css"]
 	},
 	"images": {
-		"background": "http://i.imgur.com/mrDCyF8.jpg"
+		"background": "http://i.imgur.com/mrDCyF8.jpg",
 		"booth": "http://i.imgur.com/FyAF7GW.gif"
 	},
 	"rules": {
