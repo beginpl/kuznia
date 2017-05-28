@@ -49,3 +49,11 @@ right: 21px;
     bottom: -215%;
     background-size: 150px 110px;
 }
+#p3-dj-booth {
+    background: no-repeat 50%;
+    width: 300px;
+    height: 100px;
+    left: 24px;
+    top: 120px;
+    z-index: -1;
+}
