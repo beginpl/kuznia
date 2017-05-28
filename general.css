@@ -13,11 +13,12 @@
     z-index: -1;
     content: " ";
     display: block;
-    background: url(https://media.giphy.com/media/3o8dpbSeoqQZNvjANq/giphy.gif) no-repeat;
+    background: url(https://media.giphy.com/media/opvm3FXT2qYus/giphy.gif) no-repeat;
     width: 210px;
     height: 300px;
     background-size: 205px 200px;
 }
+/*
 #avatars-container:after {
     position: absolute;
     z-index: -1;
@@ -31,7 +32,7 @@ right: 21px;
     background-size: 150px 160px;
 }
 
-
+*/
 #audience {
     z-index: 1;
     overflow: hidden;
