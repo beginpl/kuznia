@@ -4,10 +4,29 @@
 */
 
 
+
+/*
+IKONY 
+*/
+ 
+.icon {
+    background: url('http://i.imgur.com/cm3ShuO.png') !important ;
+}
+/*
+IKONY 
+*/
+
+#vote .crowd-response {
+    position: relative;
+    background: #151515 !important;
+}
+#vote .crowd-response .bottom {
+    background: #265000 !important;
+}
 body, #app-menu, #plugcubed {
 
-    color: #00ff03;
-    background: #151515;
+    color: #00ff03 !important;
+    background: #151515 !important;
 
 }
 .header-panel-button.selected , #footer-user .buttons .button .count{
