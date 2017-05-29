@@ -9,6 +9,9 @@ body, #app-menu, #plugcubed {
     color: #00ff03;
 
 }
+.header-panel-button.selected {
+    background-color: #265000;
+   }
 #footer {
     z-index: 90;
     width: 100%;
@@ -68,7 +71,7 @@ body, #app-menu, #plugcubed {
 #avatars-container {
     z-index: 1 !important;
     /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
-}
+}/*
 
 #avatars-container:before {
     position: absolute;
@@ -80,7 +83,7 @@ body, #app-menu, #plugcubed {
     height: 300px;
     background-size: 205px 200px;
 }
-/*
+
 #avatars-container:after {
     position: absolute;
     z-index: -1;
