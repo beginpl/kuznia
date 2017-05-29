@@ -9,7 +9,7 @@ body, #app-menu, #plugcubed {
     color: #00ff03;
 
 }
-.header-panel-button.selected {
+.header-panel-button.selected , #footer-user .buttons .button .count{
     background-color: #265000;
    }
 #footer {
