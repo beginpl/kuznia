@@ -10,7 +10,7 @@ IKONY
 */
  
 .icon {
-    background: url('http://i.imgur.com/cm3ShuO.png') !important ;
+    background: url('http://i.imgur.com/cm3ShuO.png');
 }
 /*
 IKONY 
@@ -18,15 +18,15 @@ IKONY
 
 #vote .crowd-response {
     position: relative;
-    background: #151515 !important;
+    background: #151515;
 }
 #vote .crowd-response .bottom {
-    background: #265000 !important;
+    background: #265000;
 }
 body, #app-menu, #plugcubed {
 
-    color: #00ff03 !important;
-    background: #151515 !important;
+    color: #00ff03;
+    background: #151515;
 
 }
 .header-panel-button.selected , #footer-user .buttons .button .count{
