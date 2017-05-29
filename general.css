@@ -7,10 +7,11 @@
 body, #app-menu, #plugcubed {
 
     color: #00ff03;
+    background: #151515;
 
 }
 .header-panel-button.selected , #footer-user .buttons .button .count{
-    background-color: #265000;
+    background-color: #265000 !important;
    }
 #footer {
     z-index: 90;
