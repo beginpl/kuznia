@@ -98,10 +98,10 @@ body, #app-menu, #plugcubed {
     z-index: -1;
     content: " ";
     display: block;
-    background: url(https://media.giphy.com/media/opvm3FXT2qYus/giphy.gif) no-repeat;
-    width: 210px;
-    height: 300px;
-    background-size: 205px 200px;
+    background: url(http://i.imgur.com/7BwA678.gif) no-repeat;
+    width: 1210px;
+    height: 900px;
+
 }
 
 #avatars-container:after {
