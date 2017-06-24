@@ -93,16 +93,18 @@ body, #app-menu, #plugcubed {
     /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
 }
 
-#avatars-container:before {
+#avatars-container::before {
     position: absolute;
-    z-index: -1;
+    z-index: 66;
     content: " ";
     display: block;
     background: url(http://i.imgur.com/gG0IaHE.gif) no-repeat;
-    width: 1210px;
-    height: 900px;
-
+    width: 2000px;
+    height: 1200px;
+    top: -195%;
+    left: -49%;
 }
+
 /*
 #avatars-container:after {
     position: absolute;
