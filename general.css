@@ -101,18 +101,20 @@ body, #app-menu, #plugcubed {
     /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
 }
 #avatars-container:after {
- position: absolute;
+position: absolute;
     z-index: 66;
     content: " ";
     display: block;
     background: url(http://i.imgur.com/NBWb04R.png) no-repeat;
     width: 2300px;
     height: 1450px;
-    top: 513px;
-    left: 300px;
+    top: -511px;
+
     transform-origin: top right;
     animation: lampa 15s ease infinite alternate;
+    right: -253px;
 }
+
 
 #audience {
     z-index: 1;
