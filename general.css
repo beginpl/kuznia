@@ -85,6 +85,14 @@ body, #app-menu, #plugcubed {
 
 
 
+#p3-dj-booth {
+    background: no-repeat 50%;
+    width: 300px;
+    height: 100px;
+    left: 24px;
+    top: 120px;
+    z-index: -1;
+}
 
 
 
@@ -94,18 +102,19 @@ body, #app-menu, #plugcubed {
 }
 
 #avatars-container::before {
-    position: absolute;
+ position: absolute;
     z-index: 66;
     content: " ";
     display: block;
-    background: url(http://i.imgur.com/ICveebG.png) no-repeat;
-    width: 2000px;
-    height: 1400px;
-top: -206%;
-left: -150px;
+    background: url(http://i.imgur.com/to2x0J5.png) no-repeat;
+    width: 2300px;
+    height: 1450px;
+    top: -513px;
+    left: -300px;
     transform-origin: top left;
     animation: lampa 15s ease infinite alternate;
 }
+
 
 @keyframes lampa{
    0% {
@@ -173,14 +182,6 @@ right: 21px;
 
     bottom: -215%;
     background-size: 150px 110px;
-}
-#p3-dj-booth {
-    background: no-repeat 50%;
-    width: 300px;
-    height: 100px;
-    left: 24px;
-    top: 120px;
-    z-index: -1;
 }
 
 
