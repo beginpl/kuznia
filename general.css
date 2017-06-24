@@ -151,21 +151,21 @@ body, #app-menu, #plugcubed {
 }
 }
 */
-/*
+
 #avatars-container:after {
-    position: absolute;
-    z-index: -1;
+ position: absolute;
+    z-index: 66;
     content: " ";
     display: block;
-    background: url(https://media.giphy.com/media/opvm3FXT2qYus/giphy.gif) no-repeat;
-    width: 150px;
-    height: 300px;
-right: 21px;
-  
-    background-size: 150px 160px;
+    background: url(http://i.imgur.com/NBWb04R.png) no-repeat;
+    width: 2300px;
+    height: 1450px;
+    top: 513px;
+    left: 300px;
+    transform-origin: top right;
+    animation: lampa 15s ease infinite alternate;
 }
 
-*/
 #audience {
     z-index: 1;
     overflow: hidden;
