@@ -103,6 +103,28 @@ body, #app-menu, #plugcubed {
     height: 1200px;
     top: -195%;
     left: -49%;
+    animation: color 15s ease infinite alternate;
+}
+
+@keyframes color {
+0%, 50% {
+    background-color: rgba(33, 0, 7, 0);
+}
+20% {
+    background-color: rgba(254, 255, 0, 0.18);
+}
+30% {
+    background-color: rgba(0, 255, 99, 0.18);
+}
+70% {
+    background-color: rgba(0, 93, 255, 0.18);
+}
+85% {
+    background-color: rgba(255, 0, 227, 0.18);
+}
+100% {
+    background-color: rgba(255, 25, 0, 0.18);
+}
 }
 
 /*
