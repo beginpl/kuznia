@@ -100,6 +100,38 @@ body, #app-menu, #plugcubed {
     z-index: 1 !important;
     /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
 }
+#avatars-container:after {
+ position: absolute;
+    z-index: 66;
+    content: " ";
+    display: block;
+    background: url(http://i.imgur.com/NBWb04R.png) no-repeat;
+    width: 2300px;
+    height: 1450px;
+    top: 513px;
+    left: 300px;
+    transform-origin: top right;
+    animation: lampa 15s ease infinite alternate;
+}
+
+#audience {
+    z-index: 1;
+    overflow: hidden;
+}
+
+#vote::before {
+    position: absolute;
+    z-index: -1;
+    content: " ";
+    display: block;
+    background: url(https://media.giphy.com/media/jvQdgWel96thK/giphy.gif) no-repeat;
+    width: 150px;
+    height: 300px;
+
+    bottom: -215%;
+    background-size: 150px 110px;
+}
+
 
 #avatars-container::before {
  position: absolute;
@@ -151,37 +183,5 @@ body, #app-menu, #plugcubed {
 }
 }
 */
-
-#avatars-container:after {
- position: absolute;
-    z-index: 66;
-    content: " ";
-    display: block;
-    background: url(http://i.imgur.com/NBWb04R.png) no-repeat;
-    width: 2300px;
-    height: 1450px;
-    top: 513px;
-    left: 300px;
-    transform-origin: top right;
-    animation: lampa 15s ease infinite alternate;
-}
-
-#audience {
-    z-index: 1;
-    overflow: hidden;
-}
-
-#vote::before {
-    position: absolute;
-    z-index: -1;
-    content: " ";
-    display: block;
-    background: url(https://media.giphy.com/media/jvQdgWel96thK/giphy.gif) no-repeat;
-    width: 150px;
-    height: 300px;
-
-    bottom: -215%;
-    background-size: 150px 110px;
-}
 
 
