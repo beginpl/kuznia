@@ -119,6 +119,11 @@ position: absolute;
 #audience {
     z-index: 1;
     overflow: hidden;
+        width: 1200px;
+    height: 180px;
+    margin-right: 400px;
+    left: -200px;
+    top: 30px;
 }
 
 
