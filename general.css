@@ -111,7 +111,7 @@ position: absolute;
     top: -511px;
 
     transform-origin: top right;
-    animation: lampa 15s ease infinite alternate;
+    animation: lampa 15s linear infinite;
     right: -253px;
 }
 
@@ -133,7 +133,7 @@ position: absolute;
     top: -513px;
     left: -300px;
     transform-origin: top left;
-    animation: lampa 15s ease infinite alternate;
+    animation: lampa 15s linear infinite;
 }
 
 
