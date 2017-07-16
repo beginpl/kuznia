@@ -100,6 +100,7 @@ body, #app-menu, #plugcubed {
     z-index: 1 !important;
     /* dlaczego avatary są wyżej niż chat ? obniżam warstwe aby ogniska nie blokowały funkcji czatu */
 }
+/*
 #avatars-container:after {
 position: absolute;
     z-index: 66;
@@ -114,7 +115,7 @@ position: absolute;
     animation: lampa 15s linear infinite;
     right: -253px;
 }
-
+*/
 
 #audience {
     z-index: 1;
@@ -126,8 +127,8 @@ position: absolute;
     top: 30px;
 }
 
-
-#avatars-container::before {
+/*
+#/*avatars-container::before {
  position: absolute;
     z-index: 66;
     content: " ";
